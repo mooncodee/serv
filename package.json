@@ -1,0 +1,25 @@
+{
+  "name": "electron-server",
+  "version": "1.0.0",
+  "description": "Simple electron server",
+  "main": "index.js",
+  "author": "mooncodee",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "start": "parcel ./client/index.html --open"
+  },
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "parcel": "^2.7.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
